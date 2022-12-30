@@ -1,24 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { KoPCard } from "./KoPCard";
+import "./App.css";
+import { ScoreIcon } from "./Icons";
+import { useState } from "react";
 
 function App() {
+  const [score, setScore] = useState(0);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div>
+        <ScoreIcon />
+        <div className="scoreBoard" key={score}>
+          {`${score}`.padStart(2, "0")}
+        </div>
+      </div>
+      <KoPCard incScore={() => setScore(score + 1)} />
     </div>
   );
 }
