@@ -6,43 +6,43 @@ import { shuffle } from "./utils";
 
 const db: KoPCardOptions[] = [
   {
-    imageUrl: "./dog1.png",
+    imageUrl: "./keto-or-paw/dog1.png",
     kop: "paw",
   },
   {
-    imageUrl: "./dog2.png",
+    imageUrl: "./keto-or-paw/dog2.png",
     kop: "paw",
   },
   {
-    imageUrl: "./dog3.png",
+    imageUrl: "./keto-or-paw/dog3.png",
     kop: "paw",
   },
   {
-    imageUrl: "./dog4.png",
+    imageUrl: "./keto-or-paw/dog4.png",
     kop: "paw",
   },
   {
-    imageUrl: "./dog5.png",
+    imageUrl: "./keto-or-paw/dog5.png",
     kop: "paw",
   },
   {
-    imageUrl: "./keto1.png",
+    imageUrl: "./keto-or-paw/keto1.png",
     kop: "keto",
   },
   {
-    imageUrl: "./keto2.png",
+    imageUrl: "./keto-or-paw/keto2.png",
     kop: "keto",
   },
   {
-    imageUrl: "./keto3.png",
+    imageUrl: "./keto-or-paw/keto3.png",
     kop: "keto",
   },
   {
-    imageUrl: "./keto4.png",
+    imageUrl: "./keto-or-paw/keto4.png",
     kop: "keto",
   },
   {
-    imageUrl: "./keto5.png",
+    imageUrl: "./keto-or-paw/keto5.png",
     kop: "keto",
   },
 ];
