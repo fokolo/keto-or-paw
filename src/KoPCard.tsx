@@ -78,10 +78,6 @@ export function KoPCard({ incScore }: { incScore: () => void }) {
     }
   };
 
-  const outOfFrame = (name: string) => {
-    console.log(name + " left the screen!");
-  };
-
   const canSwipe = currentIndex >= 0;
 
   const swipe = async (dir: SwipeDirections) => {
@@ -99,7 +95,6 @@ export function KoPCard({ incScore }: { incScore: () => void }) {
             ref={childRefs[index]}
             key={character.imageUrl}
             onSwipe={(dir) => swiped(dir, character.kop, index)}
-            onCardLeftScreen={() => outOfFrame(character.imageUrl)}
             swipeRequirementType="position"
             preventSwipe={["down", "up"]}
           >
