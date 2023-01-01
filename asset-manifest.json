@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/keto-or-paw/static/css/main.0bd3a94f.css",
-    "main.js": "/keto-or-paw/static/js/main.9d235552.js",
+    "main.js": "/keto-or-paw/static/js/main.9a3e8dc3.js",
     "static/js/787.c78fb8b5.chunk.js": "/keto-or-paw/static/js/787.c78fb8b5.chunk.js",
     "index.html": "/keto-or-paw/index.html",
     "main.0bd3a94f.css.map": "/keto-or-paw/static/css/main.0bd3a94f.css.map",
-    "main.9d235552.js.map": "/keto-or-paw/static/js/main.9d235552.js.map",
+    "main.9a3e8dc3.js.map": "/keto-or-paw/static/js/main.9a3e8dc3.js.map",
     "787.c78fb8b5.chunk.js.map": "/keto-or-paw/static/js/787.c78fb8b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0bd3a94f.css",
-    "static/js/main.9d235552.js"
+    "static/js/main.9a3e8dc3.js"
   ]
 }
